@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --facebook: #3b5999;
+    --twitter: #55acee;
+    --instagram: #e4405f;
+}
+
+/* Containers Start */
+.container{
+    width: 70%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* Containers End */
+
+/* NavBar Start */
+
+.nav-cnt{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    
+}
+
+/* Logo */
+.logo-cnt-mo{
+    padding-top: 25px;
+}
+
+.logo-mo{
+    padding-right: 100px;
+}
+/* Logo */
+
+/* Menu */
+
+.menu-list{
+   padding: 23px;
+   position: relative;
+   right: 40px;
+}
+
+.list-item{
+    display: inline-block;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    font-size: 1.1rem;
+    position: relative;
+    font-weight: 500;
+}
+
+.link::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgba(250,216,73);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+
+.link:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+/* Menu */
+
+/* Redes Sociales Start */
+
+.redes-container{
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 30px;
+    text-align: center;
+
+}
+
+.redes-container ul li a{
+    font-size: 20px;
+}
+
+/* Redes Sociales Animations */
+.facebook, .twitter, .instagram{
+    color: rgba(77,85,90,255);
+}
+
+.redes-container ul li a i:hover{
+    transform: scale(1.3);
+    transition: transform 0.5s;
+}
+
+.redes-container ul li .facebook:hover{
+    color: var(--facebook);
+}
+
+.redes-container ul li .twitter:hover{
+    color: var(--twitter);
+}
+
+.redes-container ul li .instagram:hover{
+    color: var(--instagram);
+}
+/* Redes Sociales Animations */
+
+/* Redes Sociales End */
+
+/* NavBar End */
