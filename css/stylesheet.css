@@ -56,6 +56,16 @@ body{
 /* ------Containers------ */
 
 /* ------NavBar Start------ */
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    border-bottom: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+}
+
 .main-nav{
     display: flex;
     justify-content: space-between;
@@ -63,14 +73,9 @@ body{
     align-items: center;
 }
 
-/* -----Logo----- */
-.logo-cnt-mo{
-    
-}
 
-.logo-mo{
-    
-}
+/* -----Logo----- */
+
 /* -----Logo----- */
 
 /* ----Menu---- */
@@ -156,7 +161,7 @@ body{
     display: flex;
     align-items: center;
     background-color: #f5df4e;
-    min-height: calc(100vh - 67px);
+    min-height: calc(107vh - 68px);
   }
   
   .cnt-sec1 {
@@ -238,8 +243,9 @@ body{
   }
 
 
-/* Seccion 1-Inicio */
+/* Seccion 1-Finalizado */
 
+/* Seccion 2-Inicio */
 
 /* Aqui posiciono el texto resaltante que se vera por sobre los 
 demas al llegar a esta parte */
@@ -367,4 +373,96 @@ mis años de experiencia y posiciono todos los textos */
     font-size: 18px;
 }
 
-/* Seccion 1-Finalizado */
+/* Seccion 2-Finalizado */
+
+/* Section 3-inicio */
+
+/* Ajustes generales del section */
+.src-sec{
+    background-color: #f8f9fb;
+    min-height: calc(100vh - 65px);
+    padding-top: 5rem;
+}
+
+.start-sec3{
+    padding: 0px;
+    margin-bottom: 4rem;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.start-sec3-cnt1{
+    display: flex;
+    justify-content: center;
+}
+
+/* Titulo */
+.txt1-sec3{
+    background-color: #f5df4e;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.start-sec3-cnt2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.start-sec3-cnt2 p{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Ajustes de los contenedores */
+
+.cnt-fila1{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 10rem;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+.cnt-fila2{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 10rem;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    padding-top: 90px;
+
+}
+
+.box-sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 21rem;
+    text-align: center; 
+}
+
+/* clr-pos-size Del interior del contenedor */
+
+.icons-sec3{
+    font-size: 50px;
+    color: #f5df4e;
+}
+
+.dscp-text{
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.textcnt-center{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
