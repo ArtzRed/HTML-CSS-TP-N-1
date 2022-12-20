@@ -9,7 +9,10 @@ Stylesheet
  3. Menu Animations
  4. Redes Sociales
  5. Redes Sociales Animations
-4-
+4- Section 1 Inicio
+5- Section 2 Acerca de mi
+6- Section 3 Servicios
+7- Section 4 Resumen
 
 
 
@@ -24,7 +27,7 @@ Stylesheet
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --facebook: #3b5999;
     --twitter: #55acee;
     --instagram: #e4405f;
@@ -34,7 +37,7 @@ Stylesheet
     --transition: all 0.3s linear;
 }
 
-body{
+body {
     display: block;
     font-size: 1rem;
     font-weight: 400;
@@ -46,7 +49,7 @@ body{
 
 /* ------Containers----- */
 
-.container{
+.container {
     width: 70%;
     max-width: 1320px;
     margin: 0 auto;
@@ -56,7 +59,7 @@ body{
 /* ------Containers------ */
 
 /* ------NavBar Start------ */
-header{
+header {
     position: fixed;
     width: 100%;
     height: 70px;
@@ -66,7 +69,7 @@ header{
     box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
 }
 
-.main-nav{
+.main-nav {
     display: flex;
     justify-content: space-between;
     height: 70px;
@@ -79,16 +82,16 @@ header{
 /* -----Logo----- */
 
 /* ----Menu---- */
-.btn-cnt{
+.btn-cnt {
     
 }
 
-.btn-cnt a{
+.btn-cnt a {
     color: inherit;
     text-decoration: none;
 }
 
-.list-item{
+.list-item {
     display: inline-block;
 }
 
@@ -104,7 +107,7 @@ header{
 
 /* Menu Animations */
 
-.btn-cnt a::after{
+.btn-cnt a::after {
     content: "";
     height: 4px;
     width: 0;
@@ -113,7 +116,7 @@ header{
     transition: all 0.2s ease;
 }
 
-.btn-cnt a:hover::after{
+.btn-cnt a:hover::after {
     width: 100%;
 }
 
@@ -122,7 +125,7 @@ header{
 
 /* -----Redes Sociales Start----- */
 
-.redes-cnt ul li{
+.redes-cnt ul li {
     display: inline-block;
     margin: 0 5px;
     width: 25px;
@@ -130,25 +133,25 @@ header{
 }
 
 /* Redes Sociales Animations */
-.facebook, .twitter, .instagram{
+.facebook, .twitter, .instagram {
     color: rgba(77,85,90,255);
     font-size: 20px;
 }
 
-.redes-cnt ul li a i:hover{
+.redes-cnt ul li a i:hover {
     transform: scale(1.3);
     transition: transform 0.5s;
 }
 
-.redes-cnt ul li .facebook:hover{
+.redes-cnt ul li .facebook:hover {
     color: var(--facebook);
 }
 
-.redes-cnt ul li .twitter:hover{
+.redes-cnt ul li .twitter:hover {
     color: var(--twitter);
 }
 
-.redes-cnt ul li .instagram:hover{
+.redes-cnt ul li .instagram:hover {
     color: var(--instagram);
 }
 /* Redes Sociales Animations */
@@ -187,7 +190,7 @@ header{
   .inicio-box1 h4 {
     font-size: 1.4rem;
     line-height: 1.8;
-    font-weight: 100;
+    font-weight: 300;
   }
   
   .btn-cnt1 {
@@ -255,24 +258,24 @@ demas al llegar a esta parte */
     min-height: calc(79vh - 65px);
   }
 
-.inicio-box-A-M{
+.inicio-box-A-M {
     display: flex;
     justify-content: center;
     margin-top: 105px;
 }
 
-.adjust-text-center{
+.adjust-text-center {
     background-color: #f5df4e;
     padding-left: 8px;
     padding-right: 8px;
 }
 
-.inicio-box-A-M-2{
+.inicio-box-A-M-2 {
     display: flex;
     justify-content: center;
     margin: 5px;
 }
-.inicio-box-A-M-2 h3{
+.inicio-box-A-M-2 h3 {
     font-size: 40px;
     font-weight: 600;
 }
@@ -280,40 +283,40 @@ demas al llegar a esta parte */
 /* En esta parte hago el circulo en donde se mostraran 
 mis años de experiencia y posiciono todos los textos */
 
-.cnt-sec2{
+.cnt-sec2 {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-.sec2-text-data h3{
+.sec2-text-data h3 {
     font-size: 35px;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.sec2-text-data span{
+.sec2-text-data span {
     font-weight: 600;
     border-bottom: 3px solid #f5df4e;
 }
 
-.sec2-text-data p{
+.sec2-text-data p {
     font-size: 20px;
     line-height: 1.8;
     padding-right: 100px;
 }
 
-.sec2-text-exp{
+.sec2-text-exp {
     padding-bottom: 40px;
     padding-left: x;
 }
 
-.sec2-text-exp h1{
+.sec2-text-exp h1 {
     border-radius: 50%;
     background: #f5df4e;
 }
 
-.sec2-text-exp h1{
+.sec2-text-exp h1 {
     font-size: calc(2.0rem + 6.0vw);
     font-weight: 500;
     color: #4c4d4d;
@@ -327,7 +330,7 @@ mis años de experiencia y posiciono todos los textos */
     justify-content: center; 
 }
 
-.sec2-text-exp h3{
+.sec2-text-exp h3 {
     font-size: 1.75rem;  
     width: 400px;
     display: flex;
@@ -336,24 +339,24 @@ mis años de experiencia y posiciono todos los textos */
     align-items: center;
 }
 
-.sec2-text-exp h3{
+.sec2-text-exp h3 {
     font-weight: 500;
 }
 
-.text-adjust span{
+.text-adjust span {
     font-weight: 700;
     margin-left: 5px;
 }
 
 
 /* Este es el contenedor acerca de la lista */
-.about-list-cnt{
+.about-list-cnt {
     display: flex;
     justify-content: space-between;
     padding-right: 100px;
 }
 
-.list-item1{
+.list-item1 {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -365,7 +368,7 @@ mis años de experiencia y posiciono todos los textos */
     list-style: none;
 }
 
-.list-black{
+.list-black {
     padding-top: 5px;
     color: inherit;
     list-style: none;
@@ -378,13 +381,13 @@ mis años de experiencia y posiciono todos los textos */
 /* Section 3-inicio */
 
 /* Ajustes generales del section */
-.src-sec{
+.src-sec {
     background-color: #f8f9fb;
     min-height: calc(100vh - 65px);
     padding-top: 5rem;
 }
 
-.start-sec3{
+.start-sec3 {
     padding: 0px;
     margin-bottom: 4rem;
     margin-left: 40%;
@@ -392,32 +395,32 @@ mis años de experiencia y posiciono todos los textos */
     text-align: center;
 }
 
-.start-sec3-cnt1{
+.start-sec3-cnt1 {
     display: flex;
     justify-content: center;
 }
 
 /* Titulo */
-.txt1-sec3{
+.txt1-sec3 {
     background-color: #f5df4e;
     padding-left: 8px;
     padding-right: 8px;
 }
 
-.start-sec3-cnt2{
+.start-sec3-cnt2 {
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
 }
 
-.start-sec3-cnt2 p{
+.start-sec3-cnt2 p {
     font-size: 40px;
     font-weight: 600;
 }
 
 /* Ajustes de los contenedores */
 
-.cnt-fila1{
+.cnt-fila1 {
     display: flex;
     flex-wrap: wrap;
     width: auto;
@@ -425,7 +428,7 @@ mis años de experiencia y posiciono todos los textos */
     justify-content: space-around;
     margin-bottom: 5rem;
 }
-.cnt-fila2{
+.cnt-fila2 {
     display: flex;
     flex-wrap: wrap;
     width: auto;
@@ -436,7 +439,7 @@ mis años de experiencia y posiciono todos los textos */
 
 }
 
-.box-sec3{
+.box-sec3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -446,23 +449,211 @@ mis años de experiencia y posiciono todos los textos */
 
 /* clr-pos-size Del interior del contenedor */
 
-.icons-sec3{
+.icons-sec3 {
     font-size: 50px;
     color: #f5df4e;
 }
 
-.dscp-text{
+.dscp-text {
     padding-top: 10px;
     line-height: 30px;
 }
 
-.textcnt-center{
+.textcnt-center {
     font-weight: 600;
 }
 
+/* Section 3 Finalizado */
 
+/* Section 4 Inicio */
+/* Titulo */ 
+.txt1-sec4 {
+    background-color: #f5df4e;
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
+.start-sec4-cnt1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 120px;
+}
 
+.start-sec4-cnt2 p {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+}
 
+/* Caja de habilidades */
 
+.res-gnrl-cnt {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
 
+.line {
+    border-left: 2px solid #f5df4e;
+    padding-left: 15px;
+    height: 500px;
+    padding-right: 30px;
+}
+
+.res-txt3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9eaea;
+    width: 600px;
+}
+
+.res-txt1 {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 8px;
+    padding-top: 20px;
+}
+
+.res-txt1-5 { 
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 8px;  
+}
+
+.res-txt2 {
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.res-txt-3-5 {
+    width: 600px;
+}
+
+.txt1-edu {
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* Resumen de habilidades en porcentajes */
+
+.txt4-res {
+    padding-top: 60px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.prgs-bar {
+    margin-top: 10px;
+    margin-right: 5%;
+    width: 630px;
+    height: 10px;
+    padding-right: 5%;
+    border: 1px solid rgb(241, 239, 239); 
+    border-radius: 5px; 
+    overflow: hidden; 
+    background-color: gainsboro; 
+}
+.porcentaje1 {
+    width: 50%;
+    height: 10px;
+    border: var(--paraBordes);
+    background-color: #f5df4e;
+}
+.porcentaje2 {
+    width: 70%;
+    height: 10px;
+    border: var(--paraBordes);
+    background-color: #f5df4e;
+}
+.porcentaje3 {
+    width: 3%;
+    height: 10px;
+    border: var(--paraBordes);
+    background-color: #f5df4e;
+}
+
+.porcentaje4 {
+    width: 0%;
+    height: 10px;
+    border: var(--paraBordes);
+    background-color: #f5df4e;
+}
+.porcentaje5 {
+    width: 0%;
+    height: 10px;
+    border: var(--paraBordes);
+    background-color: #f5df4e;
+}
+.porcentaje6 {
+    width: 40%;
+    height: 10px;
+    border: var(--paraBordes);
+    background-color: #f5df4e;
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box; 
+    justify-content:space-between;
+}
+
+.skills-txt-cnt {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.skills-txt-cnt h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.skills-txt-cnt span {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.dcv {
+    padding: 5px 12px 5px 12px;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 13px;
+    background-color: white;
+}
+
+.desc {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+.res-btn {
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+  
+.res-btn a {
+    text-decoration: none;
+}
+  
+.btn-prt {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--color-letras);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Section 4-Finalizado */
