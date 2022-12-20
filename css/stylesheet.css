@@ -1,3 +1,22 @@
+/*  
+Stylesheet 
+
+1- Cambios Globales
+2- Containers 
+3- Navbar
+ 1. Logo
+ 2. Menu
+ 3. Menu Animations
+ 4. Redes Sociales
+ 5. Redes Sociales Animations
+4-
+
+
+
+*/
+
+
+/* ------Cambios Globales------ */
 *{
     margin: 0;
     padding: 0;
@@ -9,118 +28,343 @@
     --facebook: #3b5999;
     --twitter: #55acee;
     --instagram: #e4405f;
+    --color-letras: #252b33;
+    --color-desierto: #eee8aa;
+    --color-subtitulo: #6c757d;
+    --transition: all 0.3s linear;
 }
 
-/* Containers Start */
+body{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-letras);
+}
+
+/* ------Cambios Globales------ */
+
+/* ------Containers----- */
+
 .container{
     width: 70%;
     max-width: 1320px;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
-/* Containers End */
 
-/* NavBar Start */
+/* ------Containers------ */
 
-.nav-cnt{
+/* ------NavBar Start------ */
+.main-nav{
     display: flex;
     justify-content: space-between;
     height: 70px;
+    align-items: center;
+}
+
+/* -----Logo----- */
+.logo-cnt-mo{
     
 }
 
-/* Logo */
-.logo-cnt-mo{
-    padding-top: 25px;
-}
-
 .logo-mo{
-    padding-right: 100px;
+    
 }
-/* Logo */
+/* -----Logo----- */
 
-/* Menu */
+/* ----Menu---- */
+.btn-cnt{
+    
+}
 
-.menu-list{
-   padding: 23px;
-   position: relative;
-   right: 40px;
+.btn-cnt a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .list-item{
     display: inline-block;
 }
 
-.link{
-    text-decoration: none;
-    color: inherit;
-    padding: 10px;
-    font-size: 1.1rem;
-    position: relative;
-    font-weight: 500;
-}
-
-.link::after{
-    content: "";
-    width: 0;
-    height: 4px;
-    background-color: rgba(250,216,73);
-    position: absolute;
-    bottom: 0;
-    right: 50%;
-    transition: all .5s;
-    will-change: width;
-}
-
-.link:hover:after{
-    width: 100%;
-    right: 0;
-}
-
-/* Menu */
-
-/* Redes Sociales Start */
-
-.redes-container{
+.btn-cnt ul {
     display: flex;
-    height: 100vh;
-    padding: 20px;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-weight: 700;
 }
 
-.redes-container ul li{
+/* Menu Animations */
+
+.btn-cnt a::after{
+    content: "";
+    height: 4px;
+    width: 0;
+    background-color: var(--color-desierto);
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.btn-cnt a:hover::after{
+    width: 100%;
+}
+
+/* Menu Animations */
+/* ----Menu--- */
+
+/* -----Redes Sociales Start----- */
+
+.redes-cnt ul li{
     display: inline-block;
     margin: 0 5px;
-    width: 30px;
+    width: 25px;
     text-align: center;
-
-}
-
-.redes-container ul li a{
-    font-size: 20px;
 }
 
 /* Redes Sociales Animations */
 .facebook, .twitter, .instagram{
     color: rgba(77,85,90,255);
+    font-size: 20px;
 }
 
-.redes-container ul li a i:hover{
+.redes-cnt ul li a i:hover{
     transform: scale(1.3);
     transition: transform 0.5s;
 }
 
-.redes-container ul li .facebook:hover{
+.redes-cnt ul li .facebook:hover{
     color: var(--facebook);
 }
 
-.redes-container ul li .twitter:hover{
+.redes-cnt ul li .twitter:hover{
     color: var(--twitter);
 }
 
-.redes-container ul li .instagram:hover{
+.redes-cnt ul li .instagram:hover{
     color: var(--instagram);
 }
 /* Redes Sociales Animations */
+/* ------Redes Sociales End------ */
+/* ------NavBar End------ */
 
-/* Redes Sociales End */
+/* Seccion 1-Inicio */
 
-/* NavBar End */
+.inicio-cnt {
+    display: flex;
+    align-items: center;
+    background-color: #f5df4e;
+    min-height: calc(100vh - 67px);
+  }
+  
+  .cnt-sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .inicio-box1 h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+  
+  .inicio-box1 h1 {
+    font-weight: 600;
+    font-size: 6.5rem;
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+  
+  .inicio-box1 h4 {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    font-weight: 100;
+  }
+  
+  .btn-cnt1 {
+    line-height: 5;
+  }
+  
+  .btn-cnt1 a {
+    text-decoration: none;
+  }
+  
+  .btn-trb {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--color-letras);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .btn-contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1rem;
+    border-bottom: var(--color-letras);
+    border: 1px solid var(--color-letras);
+    color: var(--color-letras);
+    border: transparent;
+  }
+
+
+
+  
+  .inicio-box2 {
+    background-color: white;
+    border-radius: 50rem;
+  }
+  
+  .me {
+    border-radius: 45rem;
+    padding: 1rem;
+    width: 30.5rem;
+  }
+  
+  .arrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px
+  }
+
+
+/* Seccion 1-Inicio */
+
+
+/* Aqui posiciono el texto resaltante que se vera por sobre los 
+demas al llegar a esta parte */
+.about-cnt {
+    display: flex;
+    background-color: white;
+    min-height: calc(79vh - 65px);
+  }
+
+.inicio-box-A-M{
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+}
+
+.adjust-text-center{
+    background-color: #f5df4e;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.inicio-box-A-M-2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.inicio-box-A-M-2 h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* En esta parte hago el circulo en donde se mostraran 
+mis años de experiencia y posiciono todos los textos */
+
+.cnt-sec2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.sec2-text-data h3{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.sec2-text-data span{
+    font-weight: 600;
+    border-bottom: 3px solid #f5df4e;
+}
+
+.sec2-text-data p{
+    font-size: 20px;
+    line-height: 1.8;
+    padding-right: 100px;
+}
+
+.sec2-text-exp{
+    padding-bottom: 40px;
+    padding-left: x;
+}
+
+.sec2-text-exp h1{
+    border-radius: 50%;
+    background: #f5df4e;
+}
+
+.sec2-text-exp h1{
+    font-size: calc(2.0rem + 6.0vw);
+    font-weight: 500;
+    color: #4c4d4d;
+    margin: 0 auto 24px; 
+    margin: 0 auto 1.5rem; 
+    width: 120px; 
+    height: 120px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.sec2-text-exp h3{
+    font-size: 1.75rem;  
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-text-exp h3{
+    font-weight: 500;
+}
+
+.text-adjust span{
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+
+/* Este es el contenedor acerca de la lista */
+.about-list-cnt{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.list-item1{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list-grey {
+    padding-top: 50px;
+    color: #7d858c;
+    list-style: none;
+}
+
+.list-black{
+    padding-top: 5px;
+    color: inherit;
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Seccion 1-Finalizado */
