@@ -10,6 +10,8 @@
 ----------
 <br>
 
+  <img align="right" alt="GIF" src="https://github.com/ArtzRed/HTML-CSS-TP-N-1/blob/main/develop-web.gif?raw=true" width="500" height="320" />
+
 <br>
 
 ------------
