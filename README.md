@@ -41,4 +41,5 @@ Espero que la pagine sea de su agrado saludos ***Miguel Ojeda***
 
 Tiempo total: 5 dias
 
-Pd: Lo unico que falta es la foto despues la agrego my bad
+Cosas faltantes:
+La foto y las redirecciones Despues las agrego 
