@@ -13,7 +13,8 @@ Stylesheet
 5- Section 2 Acerca de mi
 6- Section 3 Servicios
 7- Section 4 Resumen
-
+8- Section 5 Portfolio
+9- Footer 
 
 
 */
@@ -186,15 +187,33 @@ header {
     font-weight: 600;
     font-size: 6.5rem;
     text-transform: uppercase;
-    line-height: 1.3;
+    line-height: 1.5;
+    overflow: hidden;
+    border-right: 15px solid var(--color-letras); 
   }
-  
+
+/* Animation Developer Text*/
+
+  .inicio-box1 h1{
+    animation: txt-write 2s steps(10) infinite;
+  }
+
   .inicio-box1 h4 {
     font-size: 1.4rem;
     line-height: 1.8;
     font-weight: 300;
   }
-  
+
+  @keyframes txt-write {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100%;
+    }
+} 
+/* Animation Developer Text*/
+
   .btn-cnt1 {
     line-height: 5;
   }
@@ -635,28 +654,29 @@ mis años de experiencia y posiciono todos los textos */
     background-color: white;
 }
 
-.res-btn {
-    line-height: 1;
+.res-btn{
     display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    justify-content: center; 
+    margin-bottom: 90px;
+    padding-top: 80px;
 }
-  
-.res-btn a {
+
+.btn-prt{
     text-decoration: none;
-}
-  
-.btn-prt {
-    font-size: 1.2rem;
+    font-size: 15px;
     font-weight: 500;
-    color: white;
-    background-color: var(--color-letras);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    border: 2px solid black;
+    color: black; 
+    padding: 15px 40px;
+
+    transition: background-color 0.5s ease-in-out;
 }
+
+.btn-prt:hover{
+    background-color: black;
+    color: white;
+}
+
 
 /* Section 4-Finalizado */
 
@@ -889,6 +909,22 @@ form button{
     padding-left: 50px;
     padding-right: 110px;
     border: 0px;
+    
+}
+
+.btn-cont:hover{
+    animation:box-shadow 1s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box-shadow{
+    0%{
+        box-shadow: none;
+}
+    100%{
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+
+}
 }
 
 .ico-cont{
@@ -908,6 +944,7 @@ form button{
     font-size: 25px;
     text-decoration: none;
 }
+
 /* Redes Sociales Animations */
 .ico-cont a i:hover {
     transform: scale(1.3);
@@ -931,3 +968,26 @@ form button{
 }
 
 /* Footer */
+
+.res-btn{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 90px;
+    padding-top: 80px;
+}
+
+.btn-prt{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid black;
+    color: black; 
+    padding: 15px 40px;
+
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn-prt:hover{
+    background-color: black;
+    color: white;
+}
