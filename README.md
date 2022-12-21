@@ -1,4 +1,14 @@
-# BIENVENIDOS A MI PRIMERA PAGINA WEB PERSONAL !!! 
+# Bienvenidos 👋🏻
+
+<br>
+
+------------
+
+# Mi nombre es Miguel Ojeda 
+---Tengo 17 Años y este es mi TP
+
+----------
+<br>
 
 <br>
 
@@ -6,18 +16,17 @@
 
 Este trabajo fue realizado en el curso de Programacion Web de la UTN
 
-
 ----------
 <br>
 
-**Introducción**
+***En que consiste el trabajo?***
 <hr>
 El trabajo consiste en tratar de recrear la pagina de callum https://harnishdesign.net/demo/html/callum/index-standard-menu.html o llegar a algo parecido podras modificarla a tu gusto todo esto como una prueba para demostrar nuestras habilidades de lo aprendido en las ultimas 4 clases
 <hr>
 
 <br>
 
-**Descricpión**
+***Resumen de la pagina***
 <hr>
 Dentro de mi pagina se encontraran las siguientes secciones
 
@@ -39,7 +48,8 @@ Dentro de mi pagina se encontraran las siguientes secciones
 
 Espero que la pagine sea de su agrado saludos ***Miguel Ojeda*** 
 
-Tiempo total: 5 dias
-
-Cosas faltantes:
-La foto y las redirecciones Despues las agrego 
+***Cosas faltantes***
+> Primero que nada la foto por tema de proporciones la deje asi aunque puedo arreglarlo
+> Segundo Francia
+> Tercero Las redirecciones 
+> Cuarto La informacion de (https://artzred.github.io/HTML-CSS-TP-N-1/#src-sec "Servicios:") Todo esto es inventado planeo modificarlo en un futuro con cosas que si se hacer aunque la mayoria de las cosas que quiero aprender estan ahi
