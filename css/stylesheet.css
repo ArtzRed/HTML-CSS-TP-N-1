@@ -733,6 +733,11 @@ input[type=radio]:checked + label{
     border-bottom: 3px solid #f5df4e;
 }
 
+.cont-menu-jobs{
+    padding-bottom: 200px;
+}
+
+
 #details:checked ~ #cnt-img-jobs .jobMarkets,
 #details:checked ~ #cnt-img-jobs .jobVYoutube,
 #details:checked ~ #cnt-img-jobs .jobVVimeo,
