@@ -34,6 +34,7 @@ Stylesheet
     --color-letras: #252b33;
     --color-desierto: #eee8aa;
     --color-subtitulo: #6c757d;
+    --github: #000000;
     --transition: all 0.3s linear;
 }
 
@@ -61,6 +62,7 @@ body {
 /* ------NavBar Start------ */
 header {
     position: fixed;
+    z-index: 1;
     width: 100%;
     height: 70px;
     display: flex;
@@ -657,3 +659,275 @@ mis años de experiencia y posiciono todos los textos */
 }
 
 /* Section 4-Finalizado */
+
+/* Section 5 */
+/* Titulo */
+.txt1-sec5 {
+    background-color: #f5df4e;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.start-sec5-cnt1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 120px;
+}
+
+.start-sec5-cnt2 p {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+/* Contenedores Portfolio */
+.prtf-sec{
+    background-color: #f8f9fb;
+    min-height: calc(150vh - 65px);
+    padding-top: 5rem;
+}
+#idcontjobs {
+    flex-direction: column;
+    display: flex;
+}
+
+#cont-menu-jobs {
+    text-align: center;
+    padding-top: 50px;
+}
+
+input[type=radio] + label {
+    cursor: pointer;
+    margin-left: 30px;
+    color: gray;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio]:checked + label{
+    font-weight: 600;
+    color: black;
+    border-bottom: 3px solid #f5df4e;
+}
+
+#details:checked ~ #cnt-img-jobs .jobMarkets,
+#details:checked ~ #cnt-img-jobs .jobVYoutube,
+#details:checked ~ #cnt-img-jobs .jobVVimeo,
+#markets:checked ~ #cnt-img-jobs .jobDetails,
+#markets:checked ~ #cnt-img-jobs .jobVYoutube,
+#markets:checked ~ #cnt-img-jobs .jobVVimeo,
+#vYoutube:checked ~ #cnt-img-jobs .jobDetails,
+#vYoutube:checked ~ #cnt-img-jobs .jobMarkets,
+#vYoutube:checked ~ #cnt-img-jobs .jobVVimeo,
+#vVimeo:checked ~ #cnt-img-jobs .jobDetails,
+#vVimeo:checked ~ #cnt-img-jobs .jobMarkets,
+#vVimeo:checked ~ #cnt-img-jobs .jobVYoutube {
+    display: none;
+}
+
+.img-cnt-jobs {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.job-img {
+    margin: 10px 20px 10px 0px;
+    height: 450px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.img-class-format {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.h2-img-text1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.p-img-text1 {
+    font-size: 17px;
+    font-weight: 300;
+}
+/* Animaciones */
+figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+figure:hover figcaption {
+    animation: 1ms ease-in-out;
+    top: 0%;
+}
+
+figure:hover .img-class-format {
+    filter: blur(2px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Section 5 Finalizado */
+
+/* Footer */
+
+/* Informacion */
+.cnt-sec-cont{
+    background-color: #f5df4e;
+}
+
+#container-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-inf{
+    width: 50%;
+    margin-top: 80px;
+}
+
+.cont-inf h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cont-inf p{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    margin-right: 80px;
+}
+
+.cont-inf > h1 + p{
+    margin-bottom: 20px;
+}
+
+.cont-inf h2{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+/* Contactame */
+.contact-me{
+    position: relative;
+    right: 200px;
+    padding-top: 80px;
+}
+
+.contact-me h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+form input{
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+form input:focus, form textarea:focus{
+    border-bottom: 2px solid rgba(0,0,0,1);
+}
+
+form textarea{
+    resize: vertical;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+form button{
+    cursor: pointer;
+    width: 150px;
+    margin-bottom: 50px;
+}
+  
+.btn-cont {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--color-letras);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 110px;
+    border: 0px;
+}
+
+.ico-cont{
+    padding-top: 40px;
+}
+
+.ico-cont a i {
+    display: inline-block;
+    margin: 0 8px;
+    width: 25px;
+    text-align: center;
+}
+
+/* Redes Sociales */
+.facebook1, .twitter1, .instagram1, .github1 {
+    color: rgba(77,85,90,255);
+    font-size: 25px;
+    text-decoration: none;
+}
+/* Redes Sociales Animations */
+.ico-cont a i:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s;
+}
+
+.facebook1:hover {
+    color: var(--facebook);
+}
+
+.twitter1:hover {
+    color: var(--twitter);
+}
+
+.instagram1:hover {
+    color: var(--instagram);
+}
+
+.github1:hover{
+    color: var(--github);
+}
+
+/* Footer */
