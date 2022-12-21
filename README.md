@@ -62,6 +62,6 @@ Espero que la pagine sea de su agrado saludos ***Miguel Ojeda***
 
 > Tercero Las redirecciones 
 
-> Cuarto La informacion de [Resume:](https://artzred.github.io/HTML-CSS-TP-N-1/#res-sec "Resume") Todo esto es inventado planeo modificarlo en un futuro con cosas que si se hacer aunque la mayoria de las cosas que quiero aprender estan ahi
+> Cuarto La informacion de [Resume](https://artzred.github.io/HTML-CSS-TP-N-1/#res-sec "Resume") Todo esto es inventado planeo modificarlo en un futuro con cosas que si se hacer aunque la mayoria de las cosas que quiero aprender estan ahi
 
 <br>
