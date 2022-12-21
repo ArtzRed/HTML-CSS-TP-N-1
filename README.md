@@ -4,8 +4,8 @@
 
 ------------
 
-# Mi nombre es Miguel Ojeda 
----Tengo 17 Años y este es mi TP
+# Soy Miguel Ojeda 
+---***Tengo 17 Años y este es mi TP de HTML y CSS***
 
 ----------
 <br>
