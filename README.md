@@ -50,8 +50,18 @@ Dentro de mi pagina se encontraran las siguientes secciones
 
 Espero que la pagine sea de su agrado saludos ***Miguel Ojeda*** 
 
+
+<br>
+
 ***Cosas faltantes***
+
+
 > Primero que nada la foto por tema de proporciones la deje asi aunque puedo arreglarlo
+
 > Segundo Francia
+
 > Tercero Las redirecciones 
+
 > Cuarto La informacion de (https://artzred.github.io/HTML-CSS-TP-N-1/#src-sec "Servicios:") Todo esto es inventado planeo modificarlo en un futuro con cosas que si se hacer aunque la mayoria de las cosas que quiero aprender estan ahi
+
+<br>
